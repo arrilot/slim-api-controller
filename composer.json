@@ -1,0 +1,26 @@
+{
+  "name": "arrilot/slim-api-controller",
+  "description": "Simple base api controller for slimframework.com",
+  "license": "MIT",
+  "keywords": [
+    "slim",
+    "api",
+    "controller"
+  ],
+  "authors": [
+    {
+      "name": "Nekrasov Ilya",
+      "email": "nekrasov.ilya90@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/arrilot/slim-api-controller",
+  "require": {
+    "php": ">=5.5.9",
+    "slim/slim": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Arrilot\\SlimApiController\\": "src/"
+    }
+  }
+}
